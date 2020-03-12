@@ -1,10 +1,10 @@
- apply plugin: 'com.android.library'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.github.dcendents.android-maven'
 
- group = 'com.github.CumaSoyak'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.CumaSoyak'
 
 android {
     compileSdkVersion 29
@@ -33,7 +33,6 @@ android {
 }
 
 dependencies {
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:multidex:1.0.3'

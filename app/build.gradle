@@ -59,7 +59,7 @@ dependencies {
 
     implementation "com.android.databinding:compiler:3.5.1"
 
-    //  implementation 'com.github.CumaSoyak:kotlin-helper:0.0.3'
+    implementation 'com.github.CumaSoyak:kotlin-helper:0.0.4'
 
 
 }

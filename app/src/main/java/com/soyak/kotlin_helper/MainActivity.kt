@@ -6,8 +6,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val adappter =
-        GenericAdapter<MyModel>(R.layout.row_model)
+    private val adappter = GenericAdapter<MyModel>(R.layout.row_model)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -46,7 +46,6 @@ class GenericAdapter<T : ListItemViewModel>(@LayoutRes val layoutId: Int, val li
         holder.bind(itemViewModel)
     }
 
-
     class GenericViewHolder<T : ListItemViewModel>(private val binding: ViewDataBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
