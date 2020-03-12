@@ -11,7 +11,7 @@ import com.soyak.extensions.utils.extensions.load
 
 object BindingUtils {
     @JvmStatic
-    @BindingAdapter("toImageUrl")
+    @BindingAdapter("app:url")
     fun showImage(view: ImageView, url: String) {
         view.load(url)
     }
